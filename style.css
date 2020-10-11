@@ -8,6 +8,10 @@ ul {
     list-style-type: square;
 }
 
+img {
+    width: 300;
+}
+
 #profile{
     border-radius: 100%;
     width: 300;
