@@ -24,9 +24,9 @@ img {
 
 body{
     font-family: 'Helvetica Neue', sans-serif;
-    width: 60%;
+    width: 100%;
     margin: auto;
-    max-width: 550px;
+    /* max-width: 550px; */
 }
 
 .highlight{
@@ -34,9 +34,9 @@ body{
 }
 
 .box {
-    background-color: white;
     width: 300px;
-    padding: 15px;
-    border: 10px solid skyblue;
-    margin: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
