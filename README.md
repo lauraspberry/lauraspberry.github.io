@@ -6,4 +6,4 @@ You can view my current site & portfolio at https://lauraspberrypie.wixsite.com/
 Used: HTML, CSS, Bootstrap
 
 
-Up next: Flask, React
+Up next: Flask + Python, React
