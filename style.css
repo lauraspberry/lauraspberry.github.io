@@ -70,7 +70,8 @@ body{
 .image
 {
 	position: relative;
-	width: 200px;
-	display: table; /*to eliminate extra space at bottom and to make height wrap content*/
-	margin-bottom: 30px;
+	width: 300px;
+    display: table; /*to eliminate extra space at bottom and to make height wrap content*/
+    margin-left: auto;
+    margin-right: auto;
 }
