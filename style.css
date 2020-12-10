@@ -9,11 +9,20 @@ ul {
 }
 
 img {
+    max-width: 350px;
+    height: auto;
+}
+
+.img-wrap {
     width: 300px;
+    /* height: 100%; */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;  
 }
 
 #profile{
-    border-radius: 100%;
     width: 300;
 }
 
