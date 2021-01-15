@@ -1,8 +1,5 @@
 # lauraspberry.github.io
 
-Still under construction! Feel free to check out what I have for now though (: 
+Welcome to my website! It's full of everything that I'm proud of, from my accomplishments and projects to my artworks and animations! (^:
 
-Used: HTML, CSS
-
-Up next: Fleshing out content & updating artworks page (through ig api?)
- 
+Made with love and using HTML, CSS, Javascript.
