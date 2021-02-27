@@ -61,10 +61,11 @@ body {
 }
 
 #name {
-    text-decoration: none;
+    /* text-decoration: none;
     font-weight: bold;
     font-size: 36px;
-    color: var(--pink);
+    color: var(--pink); */
+    width: 64px;
 }
 
 #nav-items {
