@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Grace Ma</title>
+    <meta name="description" content="Grace's Portfolio">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+    <link rel="image_src" href=Images/thumbnail.png>
+
+    <link rel="stylesheet" href="styles-w.css">
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171185333-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-171185333-1');
+    </script>
+
+
+</head>
+
+<body class="theme-dark">
+
+
+    <div class="container">
+
+        <nav>
+            <div class="toggle-container">
+                <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
+                    <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
+                <span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html" id="active">work</a></li>
+                <li><a href="https://www.instagram.com/graace.png/" target="_blank" id="inactive">fun</a></li>
+                <li><a href="about.html" id="inactive">about</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="header" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Grace Ma <span style="font-weight: 300;">is a product designer with a
+                     multidisciplinary skill set, working on social impact.</span></h1>
+                <!-- is a product designer passionate about
+                    creating meaningful, impactful products.-->
+            </div>
+
+            <div class="hero-desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <p>incoming product designer @ facebook, freelancing @ friendly.studio <br>
+                    previous intern @ facebook, deloitte digital, cover</p>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="selected-work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="50">
+                <p>Featured Projects</p>
+                <span class="iconify" data-icon="bi:arrow-down" data-inline="false" id="icon"></span>
+            </div>
+
+            <!--<div class="project" data-aos="fade-up" data-aos-duration="900" data-aos-delay="250">-->
+
+
+            <a href="fb.html">
+                <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+                    <div class="project">
+                        <div class="project-img">
+                            <img src="Images/fb/fb.png" id="prj-img">
+                        </div>
+                        <div class="project-desc">
+                            <div class="project-tags">
+                                <div class="tag">
+                                    <p id="tag">PRODUCT DESIGN</p>
+                                </div>
+                                <div class="tag">
+                                    <p id="tag">INTERNSHIP</p>
+                                </div>
+                            </div>
+
+                            <h2>Facebook Internship</h2>
+                            <p id="desc">A summary of my experience and growth from my internship</p>
+
+                            <div class="view">
+                                <p>View Project</p>
+                                <div class="desc-arrow">
+                                    <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="helios.html">
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+                <div class="project">
+                    <div class="project-img">
+                        <img src="Images/helios.png" id="prj-img">
+                    </div>
+                    <div class="project-desc">
+                        <div class="project-tags">
+                            <div class="tag">
+                                <p id="tag">CASE STUDY</p>
+                            </div>
+                            <div class="tag">
+                                <p id="tag">UX DESIGN</p>
+                            </div>
+                        </div>
+
+                        <h2>Helios</h2>
+                        <p id="desc">Building a community of entrepreneurship and talent</p>
+
+                        <div class="view">
+                            <p>View Project</p>
+                            <div class="desc-arrow">
+                                <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </a>
+
+
+            <a href="ui.html">
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">
+                <div class="project">
+                    <div class="project-img">
+                        <img src="Images/ui/ui.png" id="prj-img">
+                    </div>
+                    <div class="project-desc">
+                        <div class="project-tags">
+                            <div class="tag">
+                                <p id="tag">GALLERY</p>
+                            </div>
+                            <div class="tag">
+                                <p id="tag">UI DESIGN</p>
+                            </div>
+                        </div>
+
+                        <h2>UI Explorations</h2>
+                        <p id="desc">A collection of visual design exercises and practice</p>
+
+                        <div class="view">
+                            <p>View Project</p>
+                            <div class="desc-arrow">
+                                <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </a>
+
+
+            <!--<div data-aos="fade-up" data-aos-duration="500" data-aos-offset="200">-->
+                <!--<div class="project">-->
+                    <!--<div class="project-img">-->
+                        <!--<img src="Images/helios.png" id="prj-img">-->
+                    <!--</div>-->
+                    <!--<div class="project-desc">-->
+                        <!--<div class="project-tags">-->
+                            <!--<div class="tag">-->
+                                <!--<p id="tag">CASE STUDY</p>-->
+                            <!--</div>-->
+                            <!--<div class="tag">-->
+                                <!--<p id="tag">UX DESIGN</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                        <!--<h2>Helios</h2>-->
+                        <!--<p id="desc">Building a community of entrepreneurship and talent</p>-->
+
+                        <!--<div class="view">-->
+                            <!--<p>View Project</p>-->
+                            <!--<div class="desc-arrow">-->
+                                <!--<span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <footer>
+            <h2>Let's Get in Touch</h2>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/gracemmaa/" target="_blank">—LinkedIn</a>
+                <a href="https://twitter.com/gracemmaa_" target="_blank">—Twitter</a>
+                <a href="mailto:g8ma@uwaterloo.ca">—Email</a>
+            </div>
+            <div class="copyright">
+                <p>Made with lots of  🍵 by Grace Ma — Much love to Ahrar and Omar for dev help!</p>
+                <!--<p id="caption">Grace Ma 2020 ©</p>-->
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!--<img src="Images/Flair1.svg" class="flair">-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
