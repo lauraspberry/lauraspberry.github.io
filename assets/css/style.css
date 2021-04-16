@@ -101,6 +101,16 @@ p {
 	padding-top: 15vh;
 }
 
+/** =============== Work Page ===============*/
+.cards {
+	padding-left: 16vw;
+    padding-right: 16vw;
+}
+
+.project-card {
+	background-color: var(--alice-blue);
+}
+
 /** =============== Index Timeline ===============*/
 #line {
 	padding-top: 60px;
