@@ -191,7 +191,7 @@ a {
     max-width: 80%;
 }
 
-/** =============== Projects Page ===============*/
+/** =============== Individual Projects Page ===============*/
 
 .project-content {
 	padding: 0px 10px 10px 10px;
@@ -201,6 +201,15 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.skills-2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills-col2 {
+	margin-left: 24px;
 }
 
 .project-images {
