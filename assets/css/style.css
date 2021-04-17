@@ -114,6 +114,10 @@ a {
 	color: var(--blue-accent);
 }
 
+.subheading {
+	color: var(--blue-accent);
+}
+
 /** =============== Work Page ===============*/
 .cards {
 	padding-left: 16vw;
