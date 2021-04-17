@@ -27,6 +27,7 @@ h2 {
 h3 {
 	font-weight:600;
 	font-size: 32px;
+	margin-top: 60px;
 }
 
 h4 {
@@ -115,8 +116,6 @@ a {
     padding-right: 16vw;
 }
 
-/* projects */
-
 .project-tags {
     display: flex;
     flex-direction: row;
@@ -124,7 +123,7 @@ a {
 
 .tag {
     border-radius: 10px;
-    background-color: #E5E5E5;
+    background-color: var(--alice-blue);
     margin-right: 8px;
 }
 
@@ -166,8 +165,8 @@ a {
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    margin-right: 1rem;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 #prj-img {
@@ -182,6 +181,51 @@ a {
 
 .project-desc #desc {
     max-width: 80%;
+}
+
+/** =============== Projects Page ===============*/
+
+.project-content {
+	padding: 0px 10px 10px 10px;
+}
+
+.project-head-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.project-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.project-image {
+	width: 48%;
+}
+
+.project-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.project-link {
+	font-size: 24px;
+	font-weight: 500;
+	color: var(--blue-accent);
+}
+
+.project-end-links {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.project-end-link {
+	font-size: 24px;
 }
 
 /** =============== About Page ===============*/
