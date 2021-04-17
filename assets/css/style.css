@@ -4,13 +4,14 @@
 	--blue-accent: #6F7CCE;
 	--font-gray: #424242;
 	--background-gray: #F6F6F6;
-	--alice-blue: #E7ECEF;
+	--footer-color: #E7ECEF;
+	--text-color: #000;
 }
   
 body {
 	background-color: var(--background-gray);
+	color: var(--text-color);
     font-family: 'Noto Sans JP', sans-serif;
-	color: #000;
 	margin: 0%;
 }
 
@@ -56,6 +57,21 @@ a {
     margin-right: 15vw;
 }
 
+.theme-dark {
+	--background-gray: #37353B;
+	--text-color: #EEE;
+	--blue-accent: #ABC4FF;
+	--footer-color: #262429;
+	--project-box: #2E2C34;
+}
+
+.theme-light {
+	--background-gray: #F6F6F6;
+	--text-color: #000;
+	--blue-accent: #6F7CCE;
+	--footer-color: #E7ECEF;
+	--project-box: #E7ECEF;
+}
 
 /** =============== Nav Styling ===============*/
 #navbar {
@@ -131,7 +147,7 @@ a {
 
 .tag {
     border-radius: 10px;
-    background-color: var(--alice-blue);
+    background-color: var(--footer-color);
     margin-right: 8px;
 }
 
@@ -155,7 +171,7 @@ a {
 
 .project:hover {
 	border-radius: 10px;
-    background-color: var(--alice-blue);
+    background-color: var(--project-box);
 }
 
 .project-img #prj-img {
@@ -290,7 +306,8 @@ a {
 
 /** =============== Footer ===============*/
 .footer {
-	background-color: var(--alice-blue);
+	background-color: var(--footer-color);
+	color: var(--text-color);
 	margin-top: 100px;
 	padding-left: 16vw;
     padding-right: 16vw;
