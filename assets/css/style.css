@@ -78,12 +78,16 @@ a {
 }
 
 .nav-item {
-    padding-left: 32px;
+    padding-left: 56px;
 }
 
 .nav-item a {
 	font-size: 20px;
 	font-weight: 700;
+}
+
+#switch {
+	display: none;
 }
 
 /** =============== Index Front Page ===============*/
