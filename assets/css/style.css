@@ -63,6 +63,7 @@ a {
 	--blue-accent: #ABC4FF;
 	--footer-color: #262429;
 	--project-box: #2E2C34;
+	transition: 0.3s;
 }
 
 .theme-light {
@@ -71,6 +72,7 @@ a {
 	--blue-accent: #6F7CCE;
 	--footer-color: #E7ECEF;
 	--project-box: #E7ECEF;
+	transition: 0.3s;
 }
 
 /** =============== Nav Styling ===============*/
@@ -83,8 +85,6 @@ a {
     padding-right: 8vw;
     padding-top: 4vh;
     padding-bottom: 3vh;
-	background-color: var(--background-gray);
-	/* position: fixed; */
 }
 
 #nav-items {
