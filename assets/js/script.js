@@ -10,6 +10,10 @@ function changeTheme() {
     document.body.className = `theme-${theme}`;
 }
 
+let togg = document.getElementById("dark-toggle");
+togg.onclick = changeTheme;
+
+
 // source: https://stackoverflow.com/questions/44169668/how-to-loop-changing-text-in-html-javascript
 var introid = ['a', 'an', 'a', 'a', 'an', 'a'];
 var identity = ['programmer', 'artist', 'problem solver', 'minecraft enthusiast', 'egg tart fanatic', 'student'];
