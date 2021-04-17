@@ -1,7 +1,7 @@
 :root {
 	--yellow: #fcd997;
 	--blue: #95a7b5;
-	--pink: #cd7f7d;
+	--blue-accent: #6F7CCE;
 	--font-gray: #424242;
 	--background-gray: #F6F6F6;
 	--alice-blue: #E7ECEF;
@@ -36,6 +36,12 @@ h4 {
 
 p {
 	font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .hidden {
@@ -76,9 +82,7 @@ p {
 
 .nav-item a {
 	font-size: 20px;
-	color: #000;
 	font-weight: 700;
-	text-decoration: none;
 }
 
 /** =============== Index Front Page ===============*/
@@ -101,14 +105,83 @@ p {
 	padding-top: 15vh;
 }
 
+.blue {
+	color: var(--blue-accent);
+}
+
 /** =============== Work Page ===============*/
 .cards {
 	padding-left: 16vw;
     padding-right: 16vw;
 }
 
-.project-card {
-	background-color: var(--alice-blue);
+/* projects */
+
+.project-tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    margin-right: 8px;
+}
+
+#tag {
+	margin: 0px;
+	padding: 5px 20px 5px 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+	padding: 30px 30px 30px 30px;
+    background-color:var(--background-gray);
+    transition: background-color 300ms ease-in-out;
+}
+
+.project:hover {
+	border-radius: 10px;
+    background-color: var(--alice-blue);
+}
+
+.project-img #prj-img {
+    transition: 0.3s;
+}
+
+.project:hover #prj-img {
+	border-radius: 10px;
+    transform: scale(1.04);
+}
+
+.project-img {
+    display: flex;
+    flex: 1.2;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+#prj-img {
+	border-radius: 10px;
+    max-width: 90%;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-desc #desc {
+    max-width: 80%;
 }
 
 /** =============== About Page ===============*/
@@ -118,10 +191,6 @@ p {
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 30px;
-}
-
-.project-card {
-	background-color: var(--alice-blue);
 }
 
 .img-self {
