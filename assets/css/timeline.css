@@ -1,3 +1,17 @@
+:root {
+	--timeline-color: #E7ECEF;
+}
+
+.theme-dark {
+	--timeline-color: #565656;
+	transition: 0.3s;
+}
+
+.theme-light {
+	--timeline-color: #E7ECEF;
+	transition: 0.3s;
+}
+  
 .timeline {
 	position: relative;
 	padding: 0;
@@ -17,7 +31,7 @@
 	width: 3px;
 	margin-left: 0px;
 	content: "";
-	background-color: #e9ecef;
+	background-color: var(--timeline-color);
 }
 
 /* spacing */
@@ -56,7 +70,7 @@
 	margin-left: 0;
 	text-align: center;
 	color: white;
-	border: 7px solid #e9ecef;
+	border: 7px solid #E7ECEF;
 	border-radius: 100%;
 	/* background-color: #fed136; */
 	background-color: white;
@@ -70,7 +84,7 @@
 /* left + card styling */
 .timeline > li .timeline-panel {
     float: left;
-    width: 41%;
+    width: 40%;
     margin: 0px 0px 0px -20px;
     text-align: right;
 }
