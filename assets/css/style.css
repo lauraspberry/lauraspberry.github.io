@@ -73,6 +73,11 @@ a {
 	transition: 0.3s;
 }
 
+@keyframes slide {
+	0% {transform: translateX(-10%); }
+	100% { transform: translateX(0%); }
+}
+
 /** =============== Nav Styling ===============*/
 #navbar {
     display: flex;
@@ -109,6 +114,7 @@ a {
 .content {
 	padding-left: 10vw;
     padding-right: 10vw;
+	animation: slide 1s ease-out 1;
 }
 
 .heading {
@@ -151,6 +157,7 @@ a {
 .cards {
 	padding-left: 16vw;
     padding-right: 16vw;
+	animation: slide 1s ease-out 1;
 }
 
 .project-tags {
@@ -305,7 +312,7 @@ a {
 
 #see-more {
 	text-decoration: none;
-	color: black;
+	color: var(--text-color);
 }
 
 /** =============== Index Timeline ===============*/
