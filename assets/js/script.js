@@ -1,4 +1,16 @@
-let theme = "dark";
+// let theme = "dark";
+let theme = localStorage.getItem('theme');
+console.log(theme);
+
+window.onload = function() {
+    if (theme === null) {
+        theme = 'dark';
+        localStorage.setItem('theme', theme)
+    }
+
+    document.body.className = `theme-${theme}`;
+    document.getElementById('switch').checked = (theme === 'light');
+}
 
 function changeTheme() {
     if (theme === 'dark') {
@@ -8,11 +20,8 @@ function changeTheme() {
     }
     console.log(`changed to ${theme}`);
     document.body.className = `theme-${theme}`;
+    localStorage.setItem('theme', theme)
 }
-
-let togg = document.getElementById("dark-toggle");
-togg.onclick = changeTheme;
-
 
 // source: https://stackoverflow.com/questions/44169668/how-to-loop-changing-text-in-html-javascript
 var introid = ['a', 'an', 'a', 'a', 'an', 'a'];
