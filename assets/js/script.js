@@ -4,7 +4,7 @@ console.log(theme);
 
 window.onload = function() {
     if (theme === null) {
-        theme = 'dark';
+        theme = 'light';
         localStorage.setItem('theme', theme)
     }
 
