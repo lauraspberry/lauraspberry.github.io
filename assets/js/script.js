@@ -9,7 +9,8 @@ window.onload = function() {
     }
 
     document.body.className = `theme-${theme}`;
-    document.getElementById('switch').checked = (theme === 'light');
+    // document.getElementById('switch').checked = (theme === 'light');
+    setIcon();
 }
 
 function changeTheme() {
@@ -19,8 +20,20 @@ function changeTheme() {
         theme = 'dark';
     }
     console.log(`changed to ${theme}`);
+    setIcon();
     document.body.className = `theme-${theme}`;
     localStorage.setItem('theme', theme)
+}
+
+function setIcon() {
+    if (theme == "dark") {
+        document.getElementById("sun").classList.remove("hidden");
+        document.getElementById("moon").classList.add("hidden");
+    } else {
+
+        document.getElementById("sun").classList.add("hidden");
+        document.getElementById("moon").classList.remove("hidden");
+    }
 }
 
 // source: https://stackoverflow.com/questions/44169668/how-to-loop-changing-text-in-html-javascript

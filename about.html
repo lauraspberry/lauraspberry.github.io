@@ -24,7 +24,9 @@
 				<a class="nav-link blue" href="about.html">about</a>
 			</div>
 			<div class="nav-item">
-				<input type="checkbox" id="switch" onChange="changeTheme()"/>
+				<!-- source: https://stackoverflow.com/questions/40843494/call-javascript-function-from-anchor-html-tag -->
+				<a href="javascript:changeTheme()"> <img src="assets/img/sunicon.png" id="sun" class="icon hidden"> </a>
+				<a href="javascript:changeTheme()"> <img src="assets/img/moonicon.png" id="moon" class="icon hidden"> </a>
             </div>
 		</div>
 	</div>

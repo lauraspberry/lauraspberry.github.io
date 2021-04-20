@@ -109,6 +109,10 @@ a {
 	/* display: none; */
 }
 
+.icon {
+	width: 32px;
+}
+
 /** =============== Index Front Page ===============*/
 
 .content {
@@ -139,11 +143,15 @@ a {
 }
 
 #sequence {
-	animation: fade 2s 1.94s infinite;
+	animation: fade infinite;
+	animation-duration: 2s;
+	animation-delay: 1.94s;
 }
 
 #sequenceA {
-	animation: fade 2s 1.94s infinite;
+	animation: fade infinite;
+	animation-duration: 2s;
+	animation-delay: 1.94s;
 }
 
 @keyframes fade {
