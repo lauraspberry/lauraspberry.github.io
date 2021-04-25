@@ -141,7 +141,7 @@ a {
 .subheading {
 	color: var(--blue-accent);
 }
-
+/* 
 #sequence {
 	animation: fade infinite;
 	animation-duration: 2s;
@@ -159,7 +159,7 @@ a {
 	30% { opacity: 100%; }
 	80% { opacity: 100%; }
 	100% { opacity: 0%; }
-}
+} */
 
 /** =============== Work Page ===============*/
 .cards {
@@ -368,7 +368,7 @@ a {
 	text-align: center;
 	top: 0;
 	left: 0;
-	/* background: rgba(66,66,66,0.8); */
+	background: rgba(66,66,66,0.8);
 }
 
 .lightbox img {
@@ -386,6 +386,13 @@ a {
     position: absolute;
     top: 1vw;
     right: 2vw;
-    color: var(--background-gray);
+    color: var(--blue-accent);
     font-size: 2vw;
+}
+
+
+.modal-box {
+	width: 50%;
+	height: 50%;
+	background-color: var(--background-gray);
 }
