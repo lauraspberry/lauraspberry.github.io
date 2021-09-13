@@ -57,7 +57,7 @@
 }
 
 .timeline a .rounded-circle:hover {
-    filter: brightness(125%);
+    filter: brightness(80%);
 }
 
 /* image border */
