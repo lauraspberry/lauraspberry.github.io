@@ -113,6 +113,9 @@ a {
 	width: 32px;
 }
 
+.nav-link:hover {
+	color: var(--blue-accent);
+}
 /** =============== Index Front Page ===============*/
 
 .content {
