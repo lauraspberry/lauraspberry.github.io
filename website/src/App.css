@@ -1,5 +1,7 @@
 .App {
   text-align: left;
+  font-family: DMSans-Regular, sans-serif;
+  font-size: 20px;
 }
 
 .nav-wrapper {
@@ -11,12 +13,49 @@
   margin: 0 15%;
 }
 
+.nav-container {
+  width: 20%;
+}
+
 .nav-link {
   color: black;
   cursor: pointer;
-  margin: 25px 4%;
-  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  width: 50px;
+}
+
+/* content */
+
+.header {
+  margin-top: 100px;
+  font-size: 56px;
+  font-family: DMSerifText-Regular, serif;
+}
+
+.content {
+  margin: 0 15%;
+}
+
+.bio {
+  font-size: 28px;
+  width: 30rem;
+  font-family: DMSans-Medium, sans-serif;
+}
+
+.statuses {
+  margin: 5% 1%;
+}
+
+.status {
+  font-family: DMSans-Italic, sans-serif;
+  margin-top: 5px;
+}
+
+.status-title {
+  font-family: DMSerifText-Italic, serif;
+}
+
+.resume-link {
+  color: black;
+  font-family: DMSans-Bold, sans-serif;
 }
