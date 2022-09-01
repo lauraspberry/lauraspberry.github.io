@@ -27,16 +27,34 @@ function Home() {
                     <div className="status-title">Enjoying~ </div> building in Minecraft
                 </div>
             </div>
-            <a className="resume-link" href="/about">Check out my resume here.</a>
+            <a className="resume-link" href="https://read.cv/laurapei" target="_blank">Check out my resume here.</a>
         </div>
-        <div className="body-sectionn">
-            <div className="header">What I’ve been up to ✨</div>
-            <div className="">
+        <div className="body-section">
+            <div className="subheader">What I’ve been up to ✨</div>
+            <div className="card-box">
                 <Card image="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png" 
                 link="/about" title="Amazon" description="SDE Intern"/>
+                <Card image="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png" 
+                link="/about" title="Codeology" description="Web Director"/>
+                <Card image="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png" 
+                link="/about" title="Cal Hacks" description="Director"/>
+                <Card image="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png" 
+                link="/about" title="Association of Women in EE&CS" description="Publicity Officer"/>
             </div>
-
         </div>
+        {/* footer */}
+        <div class="footer">
+          <div>
+            <h1 id="footer-title">let’s get in touch →</h1>
+            <p>This website was designed & developed with ❤️ by Laura Pei.</p>
+          </div>
+          <div id="footer-links" class="nav-item">
+            <a className="footer-link" href="https://www.linkedin.com/in/laurapei/" target="_blank">Linkedin</a>
+            <a className="footer-link" href="mailto:laur@berkeley.edu">Email</a>
+            <a className="footer-link" href="https://github.com/lauraspberry" target="_blank">Github</a>
+          </div>
+        </div>
+
       </div>
     </div>
   );
