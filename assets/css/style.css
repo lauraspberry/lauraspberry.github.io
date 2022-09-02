@@ -468,6 +468,7 @@ a {
 
 .exp-name {
 	font-size: 24px;
+	width: 30vw;
 	/* color: var(--blue-accent); */
 }
 
@@ -475,3 +476,27 @@ a {
 	font-size: 40px;
 	padding: 15vh 8rem 0 0;
 }
+
+/* new header styles */
+.statuses {
+	margin: 2rem 0.5rem;
+}
+  
+.status {
+	font-size: 20px;
+	font-family: DMSans-Italic, sans-serif;
+	margin-top: 5px;
+}
+
+.status-title {
+	font-size: 24px;
+	font-family: DMSerifText-Italic, serif;
+}
+
+.resume-link {
+	font-size: 24px;
+	color: black;
+	font-family: DMSans-Medium, sans-serif;
+	text-decoration: underline;
+}
+
