@@ -415,3 +415,63 @@ a {
 	z-index: 1;
 	right: 30%;
 }
+
+/* card css */
+
+.card-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 70px 3% 0 3%;
+}
+
+.card-photo {
+    transition: all 0.4s;
+    width: 30vw;
+}
+
+.card-photo:hover {
+    border-radius: 15px;
+    cursor: pointer;
+	width: 30vw;
+}
+
+.card-photo-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.work-card-description {
+    font-family: Circular-Book, sans-serif;
+    font-size: 16px;
+}
+
+.work-card-link {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.work-card-text {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.work-card-wrapper {
+    margin: 25px 4%;
+}
+
+.text-wrapper {
+	padding: 0.5rem 0.1rem;
+}
+
+.exp-name {
+	font-size: 24px;
+	/* color: var(--blue-accent); */
+}
+
+.subheader {
+	font-size: 40px;
+	padding: 15vh 8rem 0 0;
+}

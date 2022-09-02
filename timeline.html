@@ -1,0 +1,293 @@
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
+	<script src="assets/js/script.js"></script>
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
+	<title>Laura Pei</title>
+</head>
+
+<body class="theme-dark">
+
+	<div id="navbar">
+		<a href="index.html"><img width="64px" src="assets/img/logo.png" alt=""></a>
+		<div id="nav-items">
+			<div class="nav-item">
+				<a class="nav-link" href="work.html">work</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="about.html">about</a>
+			</div>
+			<div class="nav-item">
+				<!-- source: https://stackoverflow.com/questions/40843494/call-javascript-function-from-anchor-html-tag -->
+				<a href="javascript:changeTheme()"> <img src="assets/img/sunicon.png" id="sun" class="icon hidden"> </a>
+				<a href="javascript:changeTheme()"> <img src="assets/img/moonicon.png" id="moon" class="icon hidden"> </a>
+            </div>
+		</div>
+	</div>
+
+
+	<div class="content">
+        <h1 style="font-size: 40px;">Timeline</h2>
+        <p>A summary of things I’ve done and organizations I’m involved in.</p>
+
+		<div id="timeline-container">
+		<ul class="timeline">
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://amazon.com/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/amazon.jpeg" alt="wdd" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Summer 2022</h4>
+						<h4 class="subheading">Amazon</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">SDE Intern</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://calhacks.io/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/calhacks-logo.png" alt="calhacks" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2022</h4>
+						<h4 class="subheading">Cal Hacks</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Director</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://codeology.club/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/codeo-logo.png" alt="codeo" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2022</h4>
+						<h4 class="subheading">Codeology</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Software Developer</p></div>
+				</div>
+			</li>
+			
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://eecs.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/eecs.png" alt="eecs" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2021</h4>
+						<h4 class="subheading">EECS Department</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Course Tutor for CS 61A</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://wdd.io/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/wdd.png" alt="wdd" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2021</h4>
+						<h4 class="subheading">Web Design Decal</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Teaching Assistant</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://emerge.io/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/emerge-logo.png" alt="emerge" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Summer 2021</h4>
+						<h4 class="subheading">Emerge</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Software Engineering Intern</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://webatberkeley.org/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/wdb.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Web Dev at Berkeley</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Web Developer and Designer</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://connected.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/connect.png" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Connect at Cal</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Tech Associate</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://junilearning.com/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/juni.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Juni Learning</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">CS Instructor <br> (Python, JavaScript, Scratch)</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="http://bit.ly/grep-info.">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/grep.png" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Guided Resource and <br>Education Program in ML</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Member of GREP</p></div>
+				</div>
+			</li>
+
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://csmentors.org/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/csm.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">CS Mentors</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Mentor for Berkeley CS</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://swe.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/swe.jpeg" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Society of <br> Women Engineers</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">HSEP Mentor</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://awe.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/awe.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">Association of Women <br>in EECS</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Publicity Officer (2022)<br>Operations Officer (2021)<br>Member (2020) </p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="http://eecs.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/eecs.png" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Spring 2021</h4>
+						<h4 class="subheading">EECS Department</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Academic Intern for CS 61A</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://cs-kickstart.berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/csk.gif" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2020</h4>
+						<h4 class="subheading">CS Kickstart</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Curriculum Committee</p></div>
+				</div>
+			</li>
+
+			<li>
+				<a class data-toggle="modal" target="_blank" href="https://gamedesign.berkeley.edu/index.php">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/gdd.png" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2020</h4>
+						<h4 class="subheading">Game Design: <br> DESINV 198</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Facilitator & Webmaster</p></div>
+				</div>
+			</li>
+
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" target="_blank" href="https://berkeley.edu/">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/ucb.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2020</h4>
+						<h4 class="subheading">UC Berkeley</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Undergraduate Student, EECS & Design</p></div>
+				</div>
+			</li>
+
+			<!-- <li>
+				<a class data-toggle="modal" href="index.html">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/nova.png" alt="connect" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Fall 2020</h4>
+						<h4 class="subheading">Nova42 Academy</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Speech & Debate Judge</p></div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<a class data-toggle="modal" href="index.html">
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img-timeline/efaf.png" alt="wdb" /></div></a>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4>Summer 2018</h4>
+						<h4 class="subheading">Education For All <br> Foundation</h4>
+					</div>
+					<div class="timeline-body"><p class="text-muted">Co-Founder, <br> Marketing Executive</p></div>
+				</div>
+			</li> -->
+		</ul>
+		</div>
+		<div class="project-end-links">
+			<a href="index.html.html" class="project-link"> </a>
+			<a href="work.html"><h4>view my work →</h4></a>
+			<a href="index.html.html" class="project-link"> </a>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div>
+			<br>
+			<h1 id="footer-title">let’s get in touch →</h1>
+			<p>This website was designed & developed with ❤️ by Laura Pei.</p>
+		</div>
+		<div id="footer-links" class="nav-item">
+			<a href="https://www.linkedin.com/in/laurapei/" target="_blank">Linkedin</a>
+			<a href="mailto:laur@berkeley.edu">Email</a>
+			<a href="https://github.com/lauraspberry" target="_blank">Github</a>
+		</div>
+	</div>
+
+	<div class="lightbox hidden" id="wdb">
+		<div class="modal-box">
+			<div class="x">✕</div>
+			<img src="assets/img/bear.png">
+			<h1>Hello!</h1>
+		</div>
+	</div>
+
+</body>
+
+</html>
