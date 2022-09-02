@@ -226,7 +226,8 @@ a {
 
 #prj-img {
 	border-radius: 10px;
-    max-width: 90%;
+	width: 15rem;
+	padding: 15px;
 }
 
 .project-desc {
