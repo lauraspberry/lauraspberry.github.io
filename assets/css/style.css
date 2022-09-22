@@ -9,8 +9,8 @@
 body {
 	background-color: var(--background-gray);
 	color: var(--text-color);
-    /* font-family: 'Noto Sans JP', sans-serif; */
-	font-family: DMSans-Regular, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+	/* font-family: DMSans-Regular, sans-serif; */
 	margin: 0%;
 }
 
@@ -445,7 +445,7 @@ a {
 }
 
 .work-card-description {
-    font-family: Circular-Book, sans-serif;
+    /* font-family: Circular-Book, sans-serif; */
     font-size: 16px;
 }
 
@@ -471,6 +471,7 @@ a {
 .exp-name {
 	font-size: 24px;
 	width: 30vw;
+	font-weight: 500;
 	/* color: var(--blue-accent); */
 }
 
@@ -486,19 +487,22 @@ a {
   
 .status {
 	font-size: 20px;
-	font-family: DMSans-Italic, sans-serif;
+	font-style: italic;
+	/* font-family: DMSans-Italic, sans-serif; */
 	margin-top: 5px;
 }
 
 .status-title {
 	font-size: 24px;
-	font-family: DMSerifText-Italic, serif;
+	font-style: bold;
+	/* font-family: DMSerifText-Italic, serif; */
 }
 
 .resume-link {
 	font-size: 24px;
 	color: black;
-	font-family: DMSans-Medium, sans-serif;
+	/* font-family: DMSans-Medium, sans-serif; */
 	text-decoration: underline;
+	font-style: medium;
 }
 
