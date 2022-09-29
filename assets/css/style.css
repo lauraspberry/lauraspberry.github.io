@@ -500,7 +500,7 @@ a {
 
 .resume-link {
 	font-size: 24px;
-	color: black;
+	color: var(--text-color);
 	/* font-family: DMSans-Medium, sans-serif; */
 	text-decoration: underline;
 	font-style: medium;
